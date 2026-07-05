@@ -13,7 +13,7 @@ source:
   sha256: f76423630ae3ac4e090cb38ce1e30e7bcc69b3dee4d22d94353944386a4c6f18
 
 build:
-  number: 0
+  number: 1
   skip:
     - win
   script:
@@ -79,6 +79,7 @@ requirements:
     - tiktoken
     - pytorch >=1.10.0
     - transformers >=4.38.0
+    - typer
     - typing_extensions >=4.9.0
     - if: linux and x86_64
       then: triton

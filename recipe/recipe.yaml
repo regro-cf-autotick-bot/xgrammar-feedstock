@@ -2,7 +2,7 @@ schema_version: 1
 
 context:
   name: xgrammar
-  version: "0.2.3"
+  version: "0.2.6"
 
 package:
   name: ${{ name|lower }}
@@ -10,10 +10,10 @@ package:
 
 source:
   url: https://pypi.org/packages/source/${{ name[0] }}/${{ name }}/xgrammar-${{ version }}.tar.gz
-  sha256: f76423630ae3ac4e090cb38ce1e30e7bcc69b3dee4d22d94353944386a4c6f18
+  sha256: 9d54c310b88f9f362655de1586529add59cf625db0af7c5c07f228287777ce84
 
 build:
-  number: 1
+  number: 0
   skip:
     - win
   script:
